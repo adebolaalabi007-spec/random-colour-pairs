@@ -134,7 +134,7 @@ Choose a colour for the picnic
     while (true) {
       const r = Math.floor(Math.random() * 256);
       const g = Math.floor(Math.random() * 256);
-      const b = Math.floor(Math.random() * 256);
+      const b =Math.floor(Math.random() * 256);
 
       // Exclude red-dominant colors
       const isRed = r > 200 && g < 80 && b < 80;
